@@ -4,10 +4,12 @@
 // Difficulty: Easy
 // Topics: Array
 //
+// Runtime: 3 ms
+// Memory: 85.04 MB
 // Acceptance Rate: 62.1%
 //
-// LeetCode: https://leetcode.com/problems/monotonic-array/description/
-// Synced: 2025-12-30T12:22:41.219Z
+// LeetCode: https://leetcode.com/problems/monotonic-array/submissions/1869359102/
+// Synced: 2025-12-30T12:23:11.142Z
 // ═════════════════════════════════════════════════════════════════
 
 class Solution {
