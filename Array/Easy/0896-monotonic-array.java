@@ -9,7 +9,7 @@
 // Acceptance Rate: 62.1%
 //
 // LeetCode: https://leetcode.com/problems/monotonic-array/submissions/1869359102/
-// Synced: 2025-12-30T12:23:11.142Z
+// Synced: 2025-12-30T12:23:13.480Z
 // ═════════════════════════════════════════════════════════════════
 
 class Solution {
