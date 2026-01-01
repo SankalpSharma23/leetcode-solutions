@@ -5,18 +5,19 @@
 // Topics: Array, Math
 //
 // Runtime: 0 ms
-// Acceptance Rate: 48.5%
+// Acceptance Rate: 48.7%
 //
-// LeetCode: https://leetcode.com/problems/plus-one/
-// Synced: 2025-12-30T12:22:04.088Z
+// LeetCode: https://leetcode.com/problems/plus-one/description/
+// Synced: 2026-01-01T06:52:43.872Z
 // ═════════════════════════════════════════════════════════════════
 
-digits[i] = 0;
-        }
+class Solution {
+    public int[] plusOne(int[] digits) {
+        int n = digits.length;
         
-        // If all digits were 9, we need a new array with size n+1
-        int[] newDigits = new int[n + 1];
-        newDigits[0] = 1;
-        return newDigits;
-    }
-}
+        // Traverse from last digit to the first
+        for (int i = n - 1; i >= 0; i--) {
+            if (digits[i] < 9) {
+                digits[i]++;
+                return digits;
+            }
